@@ -1,1 +1,6 @@
+# Force GitHub to count Python code as primary language
+*.py linguist-language=Python
 
+# Ignore UI files or treat them differently
+*.ui linguist-language=XML
+*.qrc linguist-language=XML
