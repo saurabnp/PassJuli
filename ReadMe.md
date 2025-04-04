@@ -35,8 +35,8 @@ PassJuli is a simple yet secure password manager built with Python **PyQt6**, de
    ```bash
     python main.py
 
-🔐 Security Overview
-PassJuli takes your security seriously:
+🔐 Security Overview:
+PassJuli takes your security seriously
 
 - Master Password Protection: Your master password is never stored in plain text. It is hashed using Argon2, a memory-hard and CPU-intensive hash function designed to resist brute-force attacks.
 
