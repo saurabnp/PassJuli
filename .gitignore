@@ -1,0 +1,2 @@
+git rm --cached build
+git rm --cached assets
