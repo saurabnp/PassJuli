@@ -1,0 +1,4 @@
+PyQt6
+pycryptodome
+argon2-cffi
+pyinstaller
