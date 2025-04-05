@@ -1,0 +1,5 @@
+# Treat all .py files as Python
+*.py linguist-language=Python
+
+# Exclude .ui files from language statistics
+*.ui linguist-vendored
