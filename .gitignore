@@ -1,2 +1,4 @@
-git rm --cached build
-git rm --cached assets
+# Ignore build and dist folders
+/build/
+/dist/
+
