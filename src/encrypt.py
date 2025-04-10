@@ -1,6 +1,6 @@
 import os,base64
-from Cryptodome.Cipher import AES
-from Cryptodome.Protocol.KDF import PBKDF2 
+from Crypto.Cipher import AES
+from Crypto.Protocol.KDF import PBKDF2 
 
 def get_key(masterpassword, salt):
     return PBKDF2(masterpassword, salt, dkLen=32, count=100000)
